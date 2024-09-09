@@ -1,0 +1,40 @@
+<html> 
+	<head>
+		<script src=app.js></script>
+		<title>서버테스트용</title>
+	</head>
+
+	<body>
+		<h1>API 만들기 과제</h1>
+		<p> id : <input id = "idapi"> <br>
+		ps : <input type="password" id ="passapi"><br>
+		</p>
+		<button onclick = "login()">로그인</button>
+		<button onclick = "register()">회원가입</button>
+
+		<p><!-- 캐릭터 선택, 삭제-->
+		nickname : <input id = "nickapi"> <br>
+		health : <input type = "number" id = "numapi"> <br> 
+		power : <input> <br>
+		</p>
+		<button onclick = "chara_make()">캐릭터 생성</button>
+
+		<p><!-- 캐릭터 조회 --> 
+		character name : <input> <br>
+		</p>
+		<button>캐릭터 찾기</button>
+
+		<p>
+		<!-- 아이템 생성, 수정-->
+		item name : <input id = "itemapi1"> <br>
+		item explain : <input id = "itemapi2"> <br>
+		</p>
+		<button onclick = "item_make()">아이템 등록</button>
+
+		<p>
+		<!-- 아이템 조회, 상세조회-->
+		item name : <input> <br>
+		</p>
+		<button>아이템 찾기</button>
+	</body>
+</html>
