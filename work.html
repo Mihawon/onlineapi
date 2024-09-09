@@ -6,35 +6,35 @@
 
 	<body>
 		<h1>API 만들기 과제</h1>
-		<p> id : <input id = "idapi"> <br>
-		ps : <input type="password" id ="passapi"><br>
+
+		<p> <input>:ID <br>
+		<input type="password">:PASSWORD<br>
+		<input type="button" value = "login">
+		<input type="button" value = "register">
 		</p>
-		<button onclick = "login()">로그인</button>
-		<button onclick = "register()">회원가입</button>
 
 		<p><!-- 캐릭터 선택, 삭제-->
-		nickname : <input id = "nickapi"> <br>
-		health : <input type = "number" id = "numapi"> <br> 
-		power : <input> <br>
+		<input> :nickname <br>
+		<input> :health <br> 
+		<input> :power <br>
+		<input type="button" value = "make character">
 		</p>
-		<button onclick = "chara_make()">캐릭터 생성</button>
 
 		<p><!-- 캐릭터 조회 --> 
-		character name : <input> <br>
+		<input> :nickname <br>
+		<input type="button" value = "find character">
 		</p>
-		<button>캐릭터 찾기</button>
 
-		<p>
-		<!-- 아이템 생성, 수정-->
-		item name : <input id = "itemapi1"> <br>
-		item explain : <input id = "itemapi2"> <br>
+		<p><!-- 아이템 생성, 수정-->
+		<input> :item name <br>
+		<input> :item explain<br>
+		<input type="button" value = "make item">
 		</p>
-		<button onclick = "item_make()">아이템 등록</button>
 
-		<p>
-		<!-- 아이템 조회, 상세조회-->
-		item name : <input> <br>
+		<p><!-- 아이템 조회, 상세조회-->
+		<input> :item name <br>
+		<input type="button" value = "find item">
 		</p>
-		<button>아이템 찾기</button>
+
 	</body>
 </html>
